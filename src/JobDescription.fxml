@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.shape.Circle?>
+<?import org.kordamp.ikonli.javafx.FontIcon?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+
+<StackPane fx:controller="application.Controller" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1250.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <AnchorPane prefHeight="700.0" prefWidth="1250.0">
+               <children>
+                  <AnchorPane prefHeight="60.0" prefWidth="1250.0" styleClass="bottom-border" stylesheets="@application/style.css">
+                     <children>
+                        <AnchorPane layoutX="43.0" layoutY="5.0" prefHeight="50.0" prefWidth="60.0">
+                           <children>
+                              <ImageView fitHeight="50.0" fitWidth="60.0" layoutX="5.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@NextHire-Logo--02.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </AnchorPane>
+                        <Label fx:id="homeLabel" layoutX="479.0" layoutY="22.0" styleClass="textt3" stylesheets="@application/style.css" text="Home" />
+                        <Label fx:id="jobLabel" layoutX="586.0" layoutY="22.0" styleClass="textt3" stylesheets="@application/style.css" text="Job" />
+                        <MenuButton fx:id="profileButton" layoutX="1054.0" layoutY="14.0" mnemonicParsing="false" 
+                                    styleClass="loginBTN,dynamic-profile-button" text="Profile">
+                           <items>
+                              <MenuItem mnemonicParsing="false" text="My Profile" />
+                              <MenuItem fx:id="coursesMenuItem" mnemonicParsing="false" onAction="#handleCoursesMenuItem" text="Courses" />
+                              <MenuItem mnemonicParsing="false" onAction="#logoutBtn" text="Logout" />
+                           </items>
+                        </MenuButton>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutY="60.0" prefHeight="640.0" prefWidth="1250.0">
+                     <children>
+                        <AnchorPane prefHeight="640.0" prefWidth="200.0" style="-fx-background-color: #E6E6E6;" styleClass="rightSide-border" stylesheets="@application/style.css">
+                           <children>
+                              <Button layoutX="25.0" layoutY="131.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="150.0" styleClass="deshboardBTN" stylesheets="@application/style.css" text="Description" />
+                              <Button fx:id="backBtn" layoutX="25.0" layoutY="217.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="150.0" styleClass="deshboardBTN" stylesheets="@application/style.css" text="Back" onAction="#handleBackBtn" />
+                              <Label layoutX="25.0" layoutY="28.0" styleClass="headlineFeature" stylesheets="@application/style.css" text="Menu" />
+                              <Button fx:id="checkEligibilityBtn" layoutX="25.0" layoutY="174.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="150.0" styleClass="deshboardBTN" stylesheets="@application/style.css" text="Check Eligibility" onAction="#handleCheckEligibilityBtn" />
+                           </children>
+                        </AnchorPane>
+                        <AnchorPane layoutX="880.0" layoutY="198.0" prefHeight="321.0" prefWidth="320.0" styleClass="LangMaingBackground" stylesheets="@application/style.css">
+                           <children>
+                              <Label layoutX="27.0" layoutY="30.0" styleClass="jobTitle" stylesheets="@application/style.css" text="Job Overview" />
+                              <Label layoutX="25.0" layoutY="69.0" prefHeight="34.0" prefWidth="62.0" styleClass="update" stylesheets="@application/style.css" text="Post Date :" wrapText="true" />
+                              <Button fx:id="checkEligibilityBtn2" layoutX="86.0" layoutY="253.0" mnemonicParsing="false" styleClass="join-btn" stylesheets="@application/style.css" text="Check Eligibility" onAction="#handleCheckEligibilityBtn" />
+                              <Label layoutX="140.0" layoutY="71.0" prefHeight="34.0" prefWidth="72.0" styleClass="update" stylesheets="@application/style.css" text="20 June 2025" wrapText="true" />
+                              <Label layoutX="25.0" layoutY="95.0" prefHeight="34.0" prefWidth="62.0" styleClass="update" stylesheets="@application/style.css" text="Location :" wrapText="true" />
+                              <Label layoutX="140.0" layoutY="97.0" prefHeight="34.0" prefWidth="150.0" styleClass="update" stylesheets="@application/style.css" text="Manik Mia Road, Gulshan-2" wrapText="true" />
+                              <Label layoutX="26.0" layoutY="126.0" prefHeight="34.0" prefWidth="67.0" styleClass="update" stylesheets="@application/style.css" text="Job Nature :" wrapText="true" />
+                              <Label layoutX="141.0" layoutY="128.0" prefHeight="34.0" prefWidth="72.0" styleClass="update" stylesheets="@application/style.css" text="Full Time" wrapText="true" />
+                              <Label layoutX="26.0" layoutY="152.0" prefHeight="34.0" prefWidth="62.0" styleClass="update" stylesheets="@application/style.css" text="Salary :" wrapText="true" />
+                              <Label layoutX="141.0" layoutY="154.0" prefHeight="34.0" prefWidth="150.0" styleClass="update" stylesheets="@application/style.css" text="\$10K /month" wrapText="true" />
+                              <Label layoutX="26.0" layoutY="184.0" prefHeight="34.0" prefWidth="105.0" styleClass="update" stylesheets="@application/style.css" text="Application Date :" wrapText="true" />
+                              <Label layoutX="141.0" layoutY="185.0" prefHeight="34.0" prefWidth="150.0" styleClass="update" stylesheets="@application/style.css" text="25 June 2025" wrapText="true" />
+                           </children>
+                        </AnchorPane>
+                        <AnchorPane layoutX="200.0" prefHeight="152.0" prefWidth="1051.0" styleClass="backgroundFooter" stylesheets="@application/style.css">
+                           <children>
+                              <Label layoutX="325.0" layoutY="40.0" styleClass="jobDescriptionHeading" stylesheets="@application/style.css" text="Web Developer" />
+                           </children>
+                        </AnchorPane>
+                        <Label layoutX="293.0" layoutY="189.0" styleClass="textt3" stylesheets="@application/style.css" text="Web Developer" />
+                        <Label layoutX="294.0" layoutY="209.0" styleClass="update" stylesheets="@application/style.css" text="TigerIT service pvt Ltd" />
+                        <Label layoutX="626.0" layoutY="196.0" styleClass="textt5" stylesheets="@application/style.css" text="\\$10K /month" />
+                        <Label layoutX="479.0" layoutY="198.0" styleClass="update" stylesheets="@application/style.css" text="Gulshan-2, Dhaka" />
+                        <FontIcon iconLiteral="fa-map" layoutX="460.0" layoutY="210.0" />
+                        <FontIcon iconLiteral="fa-money" layoutX="607.0" layoutY="209.0" />
+                        <Label layoutX="243.0" layoutY="283.0" styleClass="jobTitle" stylesheets="@application/style.css" text="Job Description" />
+                        <Label layoutX="242.0" layoutY="315.0" prefHeight="34.0" prefWidth="307.0" styleClass="update" stylesheets="@application/style.css" text="Must know DOP concept through, Write clean code, write reusable cod. Must have leadership ability." wrapText="true" />
+                        <Label layoutX="243.0" layoutY="375.0" styleClass="jobTitle" stylesheets="@application/style.css" text="Required knowledge &amp; Skills" />
+                        <Label layoutX="242.0" layoutY="407.0" prefHeight="34.0" prefWidth="307.0" styleClass="update" stylesheets="@application/style.css" text="HTML5, CSS, React, JavaScript, Efficiend Code, Figma(Basic), Designing Idea " textAlignment="JUSTIFY" wrapText="true" />
+                        <Label layoutX="240.0" layoutY="470.0" styleClass="jobTitle" stylesheets="@application/style.css" text="Education + Experience" />
+                        <Label layoutX="239.0" layoutY="502.0" prefHeight="34.0" prefWidth="307.0" styleClass="update" stylesheets="@application/style.css" text="-BSC CSE/CS" wrapText="true" />
+                        <Label layoutX="239.0" layoutY="525.0" prefHeight="34.0" prefWidth="307.0" styleClass="update" stylesheets="@application/style.css" text="-Freshers" wrapText="true" />
+                     </children></AnchorPane>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>

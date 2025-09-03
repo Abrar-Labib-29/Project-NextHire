@@ -1,0 +1,683 @@
+.white-bg{
+    -fx-background-color: #ffffff;
+}
+
+.backgroundC {
+    -fx-background-color: linear-gradient(from 0% 0% to 100% 0%, #a6275c 0%, #db5368 100%);
+}
+
+.backgroundLang {
+    -fx-background-color: linear-gradient(from 0% 0% to 100% 0%, rgba(214, 91, 140, 0.7) 0%, rgba(255, 138, 157, 0.7) 100%);
+}
+
+.backgroundFooter {
+    -fx-background-color: #474979;
+}
+
+.logo{
+    -fx-background-color: linear-gradient(to bottom right, #16a47c, #2a827b);
+}
+
+.headline{
+    -fx-text-fill: #ffffff; /* This will change the color of the text */
+    -fx-font-size: 20px;
+    -fx-font-weight: 700;
+    -fx-font-family: Arial;
+}
+
+.headline2{
+    -fx-text-fill: #ffffff; /* This will change the color of the text */
+    -fx-font-size: 16px;
+    -fx-font-weight: 700;
+    -fx-font-family: Arial;
+}
+
+.headlineLC{
+    -fx-text-fill: linear-gradient(from 0% 0% to 100% 0%, #a6275c 0%, #db5368 100%);
+    -fx-font-size: 40px;
+    -fx-font-weight: 700;
+    -fx-font-family: Arial;
+}
+
+.headlineNextHire{
+    -fx-text-fill: linear-gradient(from 0% 0% to 100% 0%, #a6275c 0%, #db5368 100%);
+    -fx-font-size: 40px;
+    -fx-font-weight: 700;
+    -fx-font-family: GeometrySoftPro-BoldA;
+}
+
+.headlineFeature{
+    -fx-text-fill: #db5368;
+    -fx-font-size: 30px;
+    -fx-font-weight: 700;
+    -fx-font-family: Arial;
+}
+
+.textt {
+    -fx-text-fill: #ffffff; /* This will change the color of the text */
+    -fx-font-size: 14px;
+    -fx-font-weight: 600;
+    -fx-font-family: Arial;
+}
+
+.textt2 {
+    -fx-text-fill: #FAF9F6; /* This will change the color of the text */
+    -fx-font-size: 10px;
+    -fx-font-weight: 400;
+    -fx-font-family: Arial;
+}
+
+.textt3 {
+    -fx-text-fill: #db5368; /* This will change the color of the text */
+    -fx-font-size: 14px;
+    -fx-font-weight: 700;
+    -fx-font-family: Arial;
+}
+
+.textt4 {
+    -fx-text-fill: #000000; /* This will change the color of the text */
+    -fx-font-size: 11px;
+    -fx-font-weight: 400;
+    -fx-font-family: Arial;
+}
+
+.textt5 {
+    -fx-text-fill: #000000; /* This will change the color of the text */
+    -fx-font-size: 14px;
+    -fx-font-weight: 700;
+    -fx-font-family: Arial;
+}
+
+.texttFooter {
+    -fx-text-fill: #ffffff; /* This will change the color of the text */
+    -fx-font-size: 14px;
+    -fx-font-weight: 700;
+    -fx-font-family: Arial;
+}
+
+.btn1 {
+    -fx-background-color: #24A0ED;
+    -fx-text-fill: white;
+    -fx-cursor: hand;
+    -fx-font-size: 14px;
+    -fx-font-weight: 500;
+    -fx-font-family: "Arial";
+    -fx-padding: 5px 15px;
+    -fx-background-radius: 3px;
+
+    /* Drop shadow effect (subtle) */
+    -fx-effect: dropshadow(three-pass-box, rgba(36, 160, 237, 0.4), 5, 0, 0, 1);
+
+    /* Smooth transition for hover effects */
+    -fx-transition: -fx-background-color 0.2s ease, -fx-effect 0.2s ease;
+}
+
+.btn1:hover {
+    -fx-background-color: #1E90FF;
+
+    /* Stronger shadow on hover */
+    -fx-effect: dropshadow(three-pass-box, rgba(30, 144, 255, 0.5), 8, 0, 0, 2);
+}
+
+.btn2 {
+    -fx-background-color: linear-gradient(to bottom right, #0F766E, #14B8A6);
+    -fx-text-fill: white;
+    -fx-cursor: hand;
+    -fx-font-size: 14px;
+    -fx-font-weight: 500;
+    -fx-font-family: "Arial";
+    -fx-padding: 5px 15px;
+    -fx-background-radius: 3px;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 3, 0, 0, 1); /* subtle shadow */
+    -fx-transition: -fx-background-color 0.3s ease; /* smooth transition */
+}
+
+.btn2:hover {
+    -fx-background-color: linear-gradient(to bottom right, #0D9488, #0F766E);
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.3), 5, 0, 0, 2); /* slightly stronger shadow on hover */
+}
+
+
+.textfield{
+    -fx-background-color: #ffffff;
+    -fx-border-color: transparent;
+    -fx-border-width: .5px;
+    -fx-background-radius: 3px;
+}
+
+.textfield:focused{
+    -fx-border-color: transparent;
+    -fx-border-width: .8px;
+    -fx-background-radius: 3px;
+}
+
+.bottom-border {
+    -fx-border-color: transparent transparent #db5368 transparent;
+    -fx-border-width: 0 0 2px 0;
+}
+
+.link {
+    -fx-text-fill: #ffffff;
+    -fx-cursor: hand;
+}
+.link:hover {
+    -fx-text-fill: #1E90FF;
+}
+
+.welcome{
+    -fx-text-fill: #ffffff; /* This will change the color of the text */
+    -fx-font-size: 64px;
+    -fx-font-weight: 700;
+    -fx-font-family: Arial;
+}
+
+.formB{
+    -fx-background-color: linear-gradient(from 0% 0% to 100% 0%, #a6275c 0%, #db5368 100%);
+    -fx-background-radius: 5px;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 3, 0, 0, 1); /* subtle shadow */
+}
+
+.iconF{
+    /* Common icon properties */
+    -fx-fill: #2d3436; /* Fill color for shapes */
+    -fx-stroke-width: 1px; /* Stroke width */
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 2, 0.5, 0, 1); /* Optional shadow effect */
+}
+
+.loginBTN {
+    -fx-background-color: linear-gradient(from 0% 0% to 100% 0%, #a6275c 0%, #db5368 100%);
+    -fx-text-fill: white;
+    -fx-cursor: hand;
+    -fx-font-size: 14px;
+    -fx-font-weight: 500;
+    -fx-font-family: "Arial";
+    -fx-padding: 5px 15px;
+    -fx-background-radius: 3px;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 3, 0, 0, 1);
+    -fx-transition: all 0.3s ease; /* Smooth transition for all properties */
+}
+
+/* Hover Effect - Lighter gradient + slight scale-up */
+.loginBTN:hover {
+    -fx-background-color: linear-gradient(from 0% 0% to 100% 0%, #c1356b 0%, #e6677d 100%);
+    -fx-scale-x: 1.02; /* Slight enlargement */
+    -fx-scale-y: 1.02;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.3), 5, 0, 0, 1.5); /* Stronger shadow */
+}
+
+/* Pressed Effect - Darker gradient + slight scale-down */
+.loginBTN:pressed {
+    -fx-background-color: linear-gradient(from 0% 0% to 100% 0%, #8a1e4a 0%, #b84258 100%);
+    -fx-scale-x: 0.98;
+    -fx-scale-y: 0.98;
+}
+
+.signupBTN {
+    -fx-background-color: transparent;
+    -fx-text-fill: linear-gradient(from 0% 0% to 100% 0%, #a6275c 0%, #db5368 100%);
+    -fx-border-color: linear-gradient(from 0% 0% to 100% 0%, #a6275c 0%, #db5368 100%);
+    -fx-border-width: 1px;
+    -fx-border-radius: 3px;
+    -fx-cursor: hand;
+    -fx-font-size: 14px;
+    -fx-font-weight: 500;
+    -fx-font-family: "Arial";
+    -fx-padding: 5px 15px;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 3, 0, 0, 1);
+    -fx-transition: all 0.3s ease;
+}
+
+/* Hover Effect - Transforms to look like login button hover */
+.signupBTN:hover {
+    -fx-background-color: linear-gradient(from 0% 0% to 100% 0%, #c1356b 0%, #e6677d 100%);
+    -fx-text-fill: white;
+    -fx-border-color: transparent;
+    -fx-scale-x: 1.02;
+    -fx-scale-y: 1.02;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.3), 5, 0, 0, 1.5);
+}
+
+/* Pressed Effect - Transforms to look like login button pressed */
+.signupBTN:pressed {
+    -fx-background-color: linear-gradient(from 0% 0% to 100% 0%, #8a1e4a 0%, #b84258 100%);
+    -fx-text-fill: white;
+    -fx-border-color: transparent;
+    -fx-scale-x: 0.98;
+    -fx-scale-y: 0.98;
+}
+
+.searchBTN {
+    -fx-background-color: transparent;
+    -fx-text-fill: #ffffff;
+    -fx-border-color: #ffffff;
+    -fx-border-width: 1px;
+    -fx-border-radius: 3px;
+    -fx-cursor: hand;
+    -fx-font-size: 14px;
+    -fx-font-weight: 500;
+    -fx-font-family: "Arial";
+    -fx-padding: 5px 5px;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 3, 0, 0, 1);
+    -fx-transition: all 0.3s ease;
+}
+.searchBTN:hover {
+    -fx-background-color: #ffffff;
+    -fx-text-fill: linear-gradient(from 0% 0% to 100% 0%, #c1356b 0%, #e6677d 100%);
+    -fx-border-color: transparent;
+    -fx-scale-x: 1.02;
+    -fx-scale-y: 1.02;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.3), 5, 0, 0, 1.5);
+}
+
+.search-icon {
+    -fx-font-size: 22px;
+    -fx-text-fill: #db5368;
+    -fx-font-weight: bold;
+    -fx-padding: 0 8px 0 0;
+    -fx-opacity: 0.85;
+    -fx-effect: dropshadow(gaussian, rgba(219,83,104,0.15), 2, 0.5, 0, 1);
+    -fx-cursor: default;
+}
+
+.deshboardBTN {
+    -fx-background-color: transparent;
+    -fx-text-fill: linear-gradient(from 0% 0% to 100% 0%, #c1356b 0%, #e6677d 100%);
+    -fx-border-color: linear-gradient(from 0% 0% to 100% 0%, #c1356b 0%, #e6677d 100%);
+    -fx-border-width: 1px;
+    -fx-border-radius: 3px;
+    -fx-cursor: hand;
+    -fx-font-size: 14px;
+    -fx-font-weight: 500;
+    -fx-font-family: "Arial";
+    -fx-padding: 5px 5px;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 3, 0, 0, 1);
+    -fx-transition: all 0.3s ease;
+}
+.deshboardBTN:hover {
+    -fx-background-color: linear-gradient(from 0% 0% to 100% 0%, #c1356b 0%, #e6677d 100%);
+    -fx-text-fill: #ffffff;
+    -fx-border-color: linear-gradient(from 0% 0% to 100% 0%, #c1356b 0%, #e6677d 100%);
+    -fx-scale-x: 1.02;
+    -fx-scale-y: 1.02;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.3), 5, 0, 0, 1.5);
+}
+
+.analyzeBTN {
+    -fx-background-color: #db5368;
+    -fx-text-fill: white;
+    -fx-border-color: white;
+    -fx-border-width: 1px;
+    -fx-border-radius: 3px;
+    -fx-cursor: hand;
+    -fx-font-size: 14px;
+    -fx-font-weight: 500;
+    -fx-font-family: "Arial";
+    -fx-padding: 5px 15px;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 3, 0, 0, 1);
+    -fx-transition: all 0.3s ease;
+}
+
+.analyzeBTN:hover {
+    -fx-background-color: white;
+    -fx-text-fill: #db5368; /* Using the original button color for text */
+    -fx-border-color: transparent; /* Optional: change border to match original bg color */
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.3), 5, 0, 0, 1.5);
+    -fx-scale-x: 1.02;
+    -fx-scale-y: 1.02;
+}
+
+.analyzeBTN:pressed {
+    -fx-background-color: white;
+    -fx-text-fill: #b84258; /* Slightly darker shade for pressed state */
+    -fx-border-color: transparent;
+    -fx-scale-x: 0.98;
+    -fx-scale-y: 0.98;
+}
+
+.footerLine{
+    -fx-background-color: #db5368;
+}
+
+.rightSide-border {
+    -fx-border-color: transparent #db5368 transparent transparent;
+    -fx-border-width: 0 2px 0 0;
+}
+
+/* .dpImage {
+    -fx-fit-width: 40px;
+    -fx-fit-height: 50px;
+    -fx-clip: circle(25px);
+    -fx-effect: dropshadow(one-pass-box, rgba(0,0,0,0.1), 2, 0, 0, 1);
+} */
+
+.totalDashboard {
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 10;
+    -fx-padding: 15;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.1), 10, 0, 0, 2);
+}
+
+.title {
+    -fx-font-family: 'Segoe UI', Arial;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-fill: #333333;
+}
+
+.count {
+    -fx-font-family: 'Segoe UI', Arial;
+    -fx-font-size: 28px;
+    -fx-font-weight: bold;
+    -fx-fill: #2c3e50;
+}
+
+
+.update {
+    -fx-font-family: 'Segoe UI', Arial;
+    -fx-font-size: 12px;
+    -fx-fill: #7f8c8d;
+}
+
+.jobTimeBTN {
+    -fx-background-color: #f0bbc2;
+    -fx-text-fill: #db5368;
+    -fx-border-color: #db5368;
+    -fx-border-width: 1px;
+    -fx-border-radius: 3px;
+    -fx-cursor: hand;
+    -fx-font-size: 12px;
+    -fx-font-weight: 500;
+    -fx-font-family: "Arial";
+    -fx-padding: 5px 5px;
+}
+
+.jobTitle {
+             -fx-font-family: 'Segoe UI', Arial;
+             -fx-font-size: 22px;
+             -fx-font-weight: bold;
+             -fx-fill: #333333;
+}
+
+
+
+.open{
+    -fx-background-color: #d2f2d9;
+    -fx-border-radius: 5px;
+    -fx-fill: #1d5a2f;
+    -fx-font-size: 12px;
+    -fx-font-family: "Arial";
+}
+
+.onSite{
+    -fx-background-color: #eddbbc;
+    -fx-border-radius: 5px;
+    -fx-fill: #000000;
+    -fx-font-size: 12px;
+    -fx-font-family: "Arial";
+}
+
+.fullTime{
+    -fx-background-color: #dcd7f8;
+    -fx-border-radius: 5px;
+    -fx-fill: #000000;
+    -fx-font-size: 12px;
+    -fx-font-family: "Arial";
+}
+
+.view-details {
+    -fx-font-family: 'Segoe UI', Arial;
+    -fx-font-size: 14px;
+    -fx-fill: #715ECB;
+    -fx-font-weight: bold;
+    -fx-underline: true;
+    -fx-cursor: hand;
+}
+
+.view-details:hover {
+    -fx-fill: #db5368;
+    -fx-underline: true;
+}
+
+.LangBackground {
+    -fx-background-color: #000000;
+    -fx-background-radius: 5;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.1), 10, 0, 0, 2);
+}
+
+.LangMaingBackground {
+    -fx-background-color: linear-gradient(from 0% 0% to 100% 0%, rgba(214, 91, 140, 0.7) 0%, rgba(255, 138, 157, 0.7) 100%);
+    -fx-background-radius: 10;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.1), 10, 0, 0, 2);
+}
+
+.onlineBTN {
+    -fx-background-color: #a6275c;  /* Lighter version of #a6275c */
+    -fx-text-fill: #ffffff;
+    -fx-border-color: #e8a4b5;      /* Your base color */
+    -fx-border-width: 1px;
+    -fx-border-radius: 3px;
+    -fx-cursor: hand;
+    -fx-font-size: 12px;
+    -fx-font-weight: 500;
+    -fx-font-family: "Arial";
+    -fx-padding: 5px 5px;
+}
+
+.join-btn {
+    -fx-background-color: linear-gradient(to bottom, #ff4d4d 0%, #cc0000 100%);
+    -fx-text-fill: white;
+    -fx-font-family: "Arial";
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-padding: 8px 16px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-border-width: 0;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 5, 0, 0, 2);
+}
+
+.join-btn:hover {
+    -fx-background-color: linear-gradient(to bottom, #ff6666 0%, #e60000 100%);
+}
+
+.join-btn:pressed {
+    -fx-background-color: #b30000;
+    -fx-effect: innershadow(gaussian, rgba(0,0,0,0.3), 5, 0, 0, 2);
+}
+
+.watch-btn {
+    -fx-background-color: linear-gradient(to bottom, #4CAF50 0%, #2E7D32 100%);
+    -fx-text-fill: white;
+    -fx-font-family: "Arial";
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-padding: 8px 16px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-border-width: 0;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 5, 0, 0, 2);
+}
+
+.watch-btn:hover {
+    -fx-background-color: linear-gradient(to bottom, #66BB6A 0%, #388E3C 100%);
+}
+
+.watch-btn:pressed {
+    -fx-background-color: #1B5E20;
+    -fx-effect: innershadow(gaussian, rgba(0,0,0,0.3), 5, 0, 0, 2);
+}
+
+.price-btn {
+    -fx-background-color: linear-gradient(to bottom, #9c27b0 0%, #6a1b9a 100%);
+    -fx-text-fill: white;
+    -fx-font-family: "Arial";
+    -fx-font-weight: bold;
+    -fx-font-size: 16px;
+    -fx-padding: 8px 16px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 5, 0, 0, 2);
+}
+
+.price-btn:hover {
+    -fx-background-color: linear-gradient(to bottom, #ab47bc 0%, #8e24aa 100%);
+}
+
+.price-btn:pressed {
+    -fx-background-color: #4a148c;
+    -fx-effect: innershadow(gaussian, rgba(0,0,0,0.3), 5, 0, 0, 2);
+}
+
+.courseOutline {
+    /* Initial Gradient (Left to Right) */
+    -fx-background-color: linear-gradient(from 0% 0% to 100% 0%,
+        rgba(232, 160, 191, 0.5) 0%,
+        rgba(255, 185, 200, 0.5) 100%
+    );
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-border-color: #e0e0e0;
+    -fx-border-width: 1px;
+    -fx-padding: 5px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.08), 10, 0, 0, 2);
+
+    /* Transition setup */
+    -fx-transition: -fx-background-color 0.5s ease, -fx-effect 0.3s ease;
+}
+
+.courseOutline:hover {
+    /* Reversed Gradient (Right to Left) */
+    -fx-background-color: linear-gradient(from 100% 0% to 0% 0%,
+        rgba(214, 91, 140, 0.8) 0%,
+        rgba(255, 138, 157, 0.8) 100%
+    );
+
+    /* Enhanced effects */
+    -fx-effect: dropshadow(three-pass-box, rgba(214,91,140,0.2), 15, 0, 0, 3);
+    -fx-translate-y: -2px;
+}
+
+/* Active state - Pulsing animation */
+.courseOutline:pressed {
+    -fx-background-color: linear-gradient(from 0% 0% to 100% 0%,
+        rgba(194, 71, 120, 0.9) 0%,
+        rgba(235, 118, 137, 0.9) 100%
+    );
+    -fx-effect: innershadow(three-pass-box, rgba(0,0,0,0.2), 5, 0, 0, 1);
+}
+
+/* Animation for continuous flow */
+@keyframes gradientFlow {
+    0% {
+        -fx-background-color: linear-gradient(from 0% 0% to 100% 0%,
+            rgba(232, 160, 191, 0.6) 0%,
+            rgba(255, 185, 200, 0.6) 100%
+        );
+    }
+    50% {
+        -fx-background-color: linear-gradient(from 100% 0% to 0% 0%,
+            rgba(232, 160, 191, 0.6) 0%,
+            rgba(255, 185, 200, 0.6) 100%
+        );
+    }
+    100% {
+        -fx-background-color: linear-gradient(from 0% 0% to 100% 0%,
+            rgba(232, 160, 191, 0.6) 0%,
+            rgba(255, 185, 200, 0.6) 100%
+        );
+    }
+}
+
+.courseOutline:hover:active {
+    -fx-animation: gradientFlow 2s infinite;
+}
+
+.section-title {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #0074d9;
+    -fx-padding: 0 0 10 0;
+}
+
+.uploadCVBTN {
+    -fx-background-color: linear-gradient(to right, #2B3C81, #E04D9D);
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-padding: 10px 25px;
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 8, 0, 0, 3);
+    -fx-cursor: hand;
+    -fx-transition: 0.3s ease-in-out;
+}
+.jobDescriptionHeading {
+    -fx-font-size: 44px;
+    -fx-font-weight: bold;
+    -fx-font-family: 'Inclusive Sans';
+    -fx-text-fill: white;
+    -fx-alignment: center;
+    -fx-effect: dropshadow(gaussian, white, 2, 0, 2, 0),
+                dropshadow(gaussian, white, 2, 0, -2, 0),
+                dropshadow(gaussian, white, 2, 0, 0, 2),
+                dropshadow(gaussian, white, 2, 0, 0, -2);
+}
+
+.progress-indicator {
+    -fx-progress-color: #a6275c;          /* Brand color for the progress */
+    -fx-background-color: #fcfcfc;        /* Circle background */
+    -fx-scale-x: 2.5;                        /* Enlarged size */
+    -fx-scale-y: 2.5;
+}
+
+.stack-pane {
+    -fx-text-fill: #a6275c;     /* Font color */
+    -fx-font-size: 16px;        /* Font size */
+    -fx-font-weight: bold;      /* Bold text */
+}
+
+.Congrasheading {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #a6275c;
+}
+.matched {
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333; /* Pink tone for positive message */
+}
+.not-matched {
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #555555; /* Neutral/Dark Gray for negative message */
+}
+
+.matched_background {
+    -fx-background-color: linear-gradient(
+        from 0% 0% to 100% 0%,
+        rgba(91, 214, 140, 0.7) 0%,       /* soft mint green */
+        rgba(138, 255, 157, 0.7) 100%     /* lighter green end */
+    );
+    -fx-background-radius: 10;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.1), 10, 0, 0, 2);
+}
+
+.notmatched_background {
+    -fx-background-color: linear-gradient(from 0% 0% to 100% 0%, rgba(214, 91, 140, 0.7) 0%, rgba(255, 138, 157, 0.7) 100%);
+    -fx-background-radius: 10;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.1), 10, 0, 0, 2);
+}
+
+.search-icon {
+    -fx-font-size: 22px;
+    -fx-text-fill: #db5368;
+    -fx-font-weight: bold;
+    -fx-padding: 0 8px 0 0;
+    -fx-opacity: 0.85;
+    -fx-effect: dropshadow(gaussian, rgba(219,83,104,0.15), 2, 0.5, 0, 1);
+    -fx-cursor: default;
+}
+
